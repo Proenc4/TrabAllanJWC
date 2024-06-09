@@ -1,0 +1,64 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "auth-api",
+    "collectionId": "4da422d6-67f6-44fb-8e0d-66ca7eea3cd3",
+    "dateExported": "2024-05-21T23:18:41.457Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0dda8bd1-fb2f-4d8e-bc73-7267df6c8d4b",
+            "colId": "4da422d6-67f6-44fb-8e0d-66ca7eea3cd3",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:3000/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-21T23:14:13.562Z",
+            "modified": "2024-05-21T23:15:38.402Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"teste30\",\n  \"email\": \"teste30@gmail.com\",\n  \"password\": \"teste\"\n  \n}",
+                "form": []
+            },
+            "filePath": "/home/up87/.config/Code/User/globalStorage/rangav.vscode-thunder-client/collections/auth-api/register.json"
+        },
+        {
+            "_id": "b345b67e-feb5-4fe2-bf74-11d7147bd107",
+            "colId": "4da422d6-67f6-44fb-8e0d-66ca7eea3cd3",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-21T23:14:19.402Z",
+            "modified": "2024-05-21T23:16:41.744Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"teste30@gmail.com\",\n  \"password\": \"teste\"\n}",
+                "form": []
+            },
+            "filePath": "/home/up87/.config/Code/User/globalStorage/rangav.vscode-thunder-client/collections/auth-api/login.json"
+        },
+        {
+            "_id": "f38f6cc1-f5b1-40b2-8fad-aee4558e328e",
+            "colId": "4da422d6-67f6-44fb-8e0d-66ca7eea3cd3",
+            "containerId": "",
+            "name": "users",
+            "url": "http://localhost:3000/users",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-21T23:14:25.490Z",
+            "modified": "2024-05-21T23:17:13.753Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJ0ZXN0ZTMwIiwiZW1haWwiOiJ0ZXN0ZTMwQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJDNoSmpoNklPeVpCUXpTVlBwcFlDRmU2MnB0Z01QSWR5R1ZnWExsMmRvcmIyWmttQ1NHcW4uIiwiY3JlYXRlZEF0IjoiMjAyNC0wNS0yMVQyMzoxNTozOC4zOTBaIiwidXBkYXRlZEF0IjoiMjAyNC0wNS0yMVQyMzoxNTozOC4zOTBaIiwiaWF0IjoxNzE2MzMzNDAxLCJleHAiOjE3MTYzMzcwMDF9.Ga8b3xmGU9uXU45fyGdviv3fIQAueq2hkG4KB3JEEYE"
+            },
+            "filePath": "/home/up87/.config/Code/User/globalStorage/rangav.vscode-thunder-client/collections/auth-api/users.json"
+        }
+    ],
+    "ref": "3Ek__baX3lzkn0NFpWi80h9JVW45ImzAJ4DLBZlZwX9ho4WRh4WyihZlGTAeKc2ya55IbdmawhMRZPyDE7SKzg"
+}
